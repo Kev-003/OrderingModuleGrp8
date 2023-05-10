@@ -104,7 +104,8 @@ public class LoginFormGrp8 extends javax.swing.JFrame {
 
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
         if (txtName.getText().equals("bpsucict") && txtPassword.getText().equals("12345")) {
-            
+            dispose();
+            PizzaOrderFormGrp8.main(new String[] {});
         } else {
             showInvalidLogin();
         }
